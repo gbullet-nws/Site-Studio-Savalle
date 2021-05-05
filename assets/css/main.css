@@ -2699,31 +2699,37 @@ input, select, textarea {
 
 		/* Divided */
 
-			ul.divided li {
+			ul.divided li 
+			{
 				padding-top: 0.75em;
 				margin-top: 0.75em;
 			}
 
 		/* Wrappers */
 
-			.wrapper {
+			.wrapper 
+			{
 				padding: 3em 20px 3em 20px;
 			}
 
-			#header-wrapper {
+			#header-wrapper 
+			{
 				padding: 3em 20px 20px 20px;
 				text-align: center;
 			}
 
-			.homepage #header-wrapper {
-				padding: 3em 20px 3em 20px;
+			.homepage #header-wrapper 
+			{
+				padding: 2em 1em 1em 1em;
 			}
 
-			#promo-wrapper {
+			#promo-wrapper 
+			{
 				padding: 20px;
 			}
 
-			#footer-wrapper {
+			#footer-wrapper 
+			{
 				padding: 3em 20px 3em 20px;
 			}
 
@@ -2735,7 +2741,7 @@ input, select, textarea {
 
 			#logo a 
 			{
-				padding-left: 3em;
+				padding-left: 0em;
 			}
 
 		/* Nav */
@@ -2888,10 +2894,6 @@ input, select, textarea {
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), -ms-linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
-				background-image: url("images/overlay.png"), url("images/navPanel.svg"), linear-gradient(top, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.25));
 				display: block;
 				left: 0;
 				overflow-y: auto;
@@ -2903,7 +2905,6 @@ input, select, textarea {
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
 				background-color: #db6227;
-				background-size: 128px 128px, 100% 100%, 100% 100%;
 			}
 
 				#navPanel .link {
@@ -2912,7 +2913,7 @@ input, select, textarea {
 					display: block;
 					text-decoration: none;
 					padding: 0.75em;
-					color: #ddd;
+					color: rgb(255, 255, 255);
 					border: 0;
 					border-top: dotted 1px rgba(255, 255, 255, 0.1);
 				}
@@ -3059,12 +3060,18 @@ input, select, textarea {
 
 		/* Header */
 
-			#logo {
+			#logo 
+			{
 				position: relative;
 				left: 0;
 				top: 0;
 				margin: 0;
 				width: 100%;
+			}
+
+			.homepage #header-wrapper 
+			{
+				padding: 2em 1em 0em 1em;
 			}
 
 		/* Hero */
