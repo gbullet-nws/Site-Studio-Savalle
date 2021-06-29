@@ -80,7 +80,6 @@ input, select, textarea {
 	.left-col { grid-area: 1 / 1 / 2 / 2; }
 	.right-col { grid-area: 1 / 2 / 2 / 3; }
 
-
 /* Basic */
 
 	@-ms-viewport {
